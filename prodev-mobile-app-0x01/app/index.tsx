@@ -3,18 +3,19 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-              <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-        <Text style={styles.smallText}>ALX is awesome</Text>
+      {/* ✅ The 3 required Text components */}
+      <Text style={styles.largeText}>
+        Typescript is great if you practice more
+      </Text>
+      <Text style={styles.mediumText}>
+        React Native provides you a single codebase for cross platforms
+      </Text>
+      <Text style={styles.smallText}>
+        ALX is awesome
+      </Text>
+
+      {/* You can keep your entry text */}
       <Text>Entry Screen - Awesome</Text>
-      <View>
-        <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-        <Text style={styles.smallText}>ALX is awesome</Text>
-      </View>
-              <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-        <Text style={styles.smallText}>ALX is awesome</Text>
     </View>
   );
 }
