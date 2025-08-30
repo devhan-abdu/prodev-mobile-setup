@@ -10,6 +10,7 @@ Document the scaffolding process, file structure, and observations while running
 
 ### 1. Navigate to Project Directory
 Open your terminal and move to your parent project directory:
+npm run reset-project
 
 ```bash
 cd prodev-mobile-setup
