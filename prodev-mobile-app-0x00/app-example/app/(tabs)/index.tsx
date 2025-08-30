@@ -16,6 +16,7 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
+      <Text>First App Created</Text>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
