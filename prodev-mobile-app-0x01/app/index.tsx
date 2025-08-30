@@ -1,19 +1,15 @@
-import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
-import { styles } from "@/styles";
-import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { FontAwesome, Ionicons } from "@expo/vector-icons";
+import { StyleSheet, Text, View } from 'react-native';
 
-export default function Index() {
+export default function App() {
   return (
     <View style={styles.container}>
-
-  <View>
-  <Text style={styles.largeText}>Typescript is great if you practice more</Text>
-  <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
-  <Text style={styles.smallText}>ALX is awesome</Text>
-</View>
- <Text>Entry Screen - Awesome</Text>
-</View>
+      <Text>{"Entry Screen - Awesome"}</Text>
+      <View>
+        <Text style={styles.largeText}>Typescript is great if you practice more</Text>
+        <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+        <Text style={styles.smallText}>ALX is awesome</Text>
+      </View>
+    </View>
   );
 }
 
